@@ -54,8 +54,8 @@
             <jsp:include page="header.jsp"/>
             <div class="row mt-2">
                 <div class="col-sm-12" style="min-height: 600px;background-color: aliceblue">
-                <form id="changepassword" class="form-group mt-2" method="post"  id="frmchangepassword" onsubmit="event.preventDefault();validate()" action="">
-                    <input type="hidden" name="" value="changepassword">
+                <form class="form-group mt-2" method="post"  id="frmchangepassword" onsubmit="event.preventDefault();validate();" action="admincontroller.jsp">
+                    <input type="hidden" name="page" value="changepassword">
                     <h2 style="text-align: center; color: blue">Change Password</h2>
                     <table class="table table-bordered" style="margin: auto; width: 60%; ">
                         <tr>

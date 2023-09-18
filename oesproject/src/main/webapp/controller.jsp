@@ -64,7 +64,7 @@ else if(request.getParameter("page").equals("login")){
         }
     }
     else{
-    out.print("<script>alert('Invalid User');window.location.href='login.jsp';</script>");
+    out.print("<script>alert('Invalid User or Password');window.location.href='login.jsp';</script>");
     }
 
 }
