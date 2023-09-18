@@ -1,61 +1,37 @@
-<div class="row bg-dark text-light mt-2">
-                <footer class="mainfooter" role="contentinfo">  
-  <div class="footer-middle">  
-  <div class="container">  
-    <div class="row">  
-      <div class="col-md-3 col-sm-6">  
-        <div class="footer-pad">  
-          <h4> Footer Heading 1</h4>  
-          <ul class="list-unstyled">  
-            <li> <a href="#"> </a> </li>  
-            <li> <a href="#">Payment Center</a></li>  
-            <li> <a href="#"> Contact Directory </a></li>  
-            <li> <a href="#">Forms</a></li>  
-            <li> <a href="#">News and Updates</a></li>  
-            <li> <a href="#">FAQs</a></li>  
-          </ul>  
-        </div>  
-      </div>  
-      <div class="col-md-3 col-sm-6">  
-        <div class="footer-pad">  
-          <h4> Footer Heading 2</h4>  
-          <ul class="list-unstyled">  
-            <li><a href="#"> Blog </a> </li>  
-            <li><a href="#">Accessibility</a> </li>  
-            <li><a href="#">Disclaimer</a></li>  
-            <li><a href="#">Privacy Policy</a></li>  
-            <li><a href="#">FAQs</a></li>  
-            <li><a href="#">Webmaster</a></li>  
-          </ul>  
-        </div>  
-      </div>  
-      <div class="col-md-3 col-sm-6">  
-        <div class="footer-pad">  
-          <h4> Footer Heading 3 </h4>  
-          <ul class="list-unstyled">  
-            <li> <a href="#"> Parks and Recreation </a> </li>  
-            <li> <a href="#"> Public Works </a> </li>  
-            <li> <a href="#">Police Department</a> </li>  
-            <li> <a href="#"> Fire </a> </li>  
-            <li> <a href="#"> Mayor and City Council </a> </li>  
-          </ul>  
-        </div>  
-      </div>  
-        <div class="col-md-3">  
-            <h4> Follow Us </h4>  
-            <ul class="social-network social-circle">  
-             <li> <a href="#" class="icoFacebook" title="Facebook"> <i class="fa fa-facebook"> </i> </a> </li>  
-             <li> <a href="#" class="icoLinkedin" title="Linkedin"> <i class="fa fa-linkedin"> </i> </a> </li>  
-    <li> <a href="#"> <i class="fa fa-youtube" aria-hidden="true"> </i> </a> </li>  
-            </ul>               
-    </div>  
-    </div>  
-    <div class="row">  
-    <div class="col-md-12 copy">  
-    <p class="text-center"> © Copyright 2021 - Company Name.  All rights reserved. </p>  
-    </div>  
-    </div>  
-  </div>  
-  </div>  
-</footer>  
-            </div>
+<div class="row">
+    <div class="col-sm-8 bg-dark text-white py-2">
+        <div class="d-flex flex-column align-items-start justify-content-center h-100">
+            <p class="mb-0">
+                NALANDA OPEN UNIVERSITY
+            </p>
+            <p class="mb-0">
+                2nd/3rd Floor,
+                Biscomaun Bhawan,
+                Gandhi Maidan,
+                Patna 800 001 (BIHAR).
+            </p>
+            <p class="mb-0">
+                HelpLine Numbers: 9341508580, 9341508577
+            </p>
+            <p class="mb-0">
+                Fax: 0612-2201001
+            </p>
+            <p class="mb-0">
+                E-mail: nou@nou.ac.in
+            </p>
+            <p class="mb-0">
+                Website: www.nalandaopenuniversity.com, www.nou.ac.in
+            </p>
+        </div>
+    </div>
+    <div class="col-sm-4 bg-warning py-2">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <p class="mb-0">
+                &copy; Nalanda Open University
+            </p>
+            <p class="mb-0">
+                Developed by: Aalok Tiwari
+            </p>
+        </div>
+    </div>
+</div>

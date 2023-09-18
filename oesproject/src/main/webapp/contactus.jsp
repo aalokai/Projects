@@ -18,14 +18,14 @@
     <body>
         <div class="container">
             <jsp:include page="header.jsp"/>
-            <div class="row mt-2">
-                <div class="row mt-2">
-                    <div class="col-sm-4" style="min-height: 600px;background-color: aqua"></div>
-                    <div class="col-sm-8" style="min-height: 600px;background-color: aliceblue">
+            <div class="row my-5">
+                
+                    
+                    <div class="col-sm-12">
                         <h2 style="text-align: center;color:blue;">Enquiry</h2>
                         <form class="form-group" method="post" action="controller.jsp">
                             <input type="hidden" name="page" value="contactus"/>
-                            <table class="table">
+                            <table class="table table-bordered" style="margin: auto;width:80%;">
                                 <tr>
                                     <td>Enter Name</td>
                                     <td><input type="text" name="name" class="form-control"></td>

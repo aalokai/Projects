@@ -37,8 +37,8 @@
         <div class="container">
             <jsp:include page="header.jsp"/>
             <div class="row mt-2">
-    <div class="col-sm-4" style="min-height: 600px;background-color: aqua"></div>
-    <div class="col-sm-8" style="min-height: 600px;background-color: aliceblue">
+    
+    <div class="col-sm-12 my-5 " >
         <h2 style="color:blue; text-align: center;">Login Form</h2>
         <form  id="frmlogin" class="form-group" method="post" onsubmit="event.preventDefault();validate();" action="controller.jsp">
             <input type="hidden" name="page" value="login"/>
