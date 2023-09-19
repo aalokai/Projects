@@ -24,7 +24,7 @@
                                     <a class="nav-link" href="#">Student</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Enquiry</a>
+                                    <a class="nav-link" href="enquiry.jsp">Enquiry</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Question Bank</a>
@@ -33,7 +33,7 @@
                                     <a class="nav-link" href="#">Result</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">News and Events</a>
+                                    <a class="nav-link" href="news.jsp">News and Events</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="changepassword.jsp">Change Password</a>
