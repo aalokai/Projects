@@ -1,7 +1,7 @@
 <%@page import="dbpack.DbManager" %>
 <%
     if(request.getParameter("page").equals("changepassword")){
-    String oldpassword=request.getParameter("oldpassword");
+    String oldpassword=request.getParameter("oldpassword"); 
     String newpassword=request.getParameter("newpassword");
     String userid=session.getAttribute("adminid").toString();
     DbManager dm=new DbManager();
@@ -14,6 +14,17 @@
     }
     }
     
+    else if(request.getParameter("page").equals("news")){
+    String newstext=request.getParameter("newstext");
+    DbManager dm=new DbManager();
+    String query="insert into news(newstext,posteddate) values('"+newstext+"',curdate())";
+    if(dm.insertUpdateDelete(query)==true){
+    out.print("<script>alert('News is added');window.location.href='news.jsp';</script>");
+    }
+    else{
+    out.print("<script>alert('News is not added');window.location.href='news.jsp';</script>");
+    }
     
+    }
     
 %>
