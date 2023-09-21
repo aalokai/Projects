@@ -60,7 +60,8 @@ else if(request.getParameter("page").equals("login")){
             response.sendRedirect("adminzone/adminhome.jsp");
         }
         else if(usertype.equals("student")){
-            out.print("<script>alert('Welcome student');window.location.href='login.jsp';</script>");
+            session.setAttribute("rollno",userid);
+            response.sendRedirect("studentzone/studenthome.jsp");
         }
     }
     else{

@@ -6,7 +6,7 @@
 
 
 <%
-    if(session.getAttribute("adminid")==null){
+    if(session.getAttribute("rollno")==null){
         response.sendRedirect("../login.jsp");
     }
     else{
@@ -54,7 +54,7 @@
             <jsp:include page="header.jsp"/>
             <div class="row mt-2">
                 <div class="col-sm-12" style="min-height: 600px;background-color: aliceblue">
-                <form class="form-group mt-2" method="post"  id="frmchangepassword" onsubmit="event.preventDefault();validate();" action="admincontroller.jsp">
+                <form class="form-group mt-2" method="post"  id="frmchangepassword" onsubmit="event.preventDefault();validate();" action="studentcontroller.jsp">
                     <input type="hidden" name="page" value="changepassword">
                     <h2 style="text-align: center; color: blue">Change Password</h2>
                     <table class="table table-bordered" style="margin: auto; width: 60%; ">

@@ -18,7 +18,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="adminhome.jsp">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="student.jsp">Student</a>
@@ -27,7 +27,10 @@
                                     <a class="nav-link" href="enquiry.jsp">Enquiry</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Question Bank</a>
+                                    <a class="nav-link" href="course.jsp">Course</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="qb.jsp">Question Bank</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Result</a>
