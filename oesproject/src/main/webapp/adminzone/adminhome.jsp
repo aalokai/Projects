@@ -25,13 +25,9 @@
             
             <div class="row">
                 <div class="col-sm-12" style="min-height: 600px;background-color: aliceblue"></div>
-                <div class="col-sm-6" style="min-height: 80px;text-align: center;background-color: black;color:white;font-size: 20px;line-height: 80px;">
-                    Copyright &#169; TO Nalanda Open University
-                </div>
-                <div class="col-sm-6" style="min-height: 80px;text-align: center;background-color: navy;color:white;font-size: 20px;line-height: 80px;">
-                    Developed by: Aalok Tiwari
-                </div>
+                
             </div>
+            <jsp:include page="footer.jsp"/>
         </div>
     </body>
 </html>
