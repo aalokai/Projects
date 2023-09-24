@@ -1,4 +1,5 @@
 <%@page import="dbpack.DbManager"%>
+<%@page import="Connect.SmsSender"%>
 <%@page import="java.sql.ResultSet"%>
 <%
 if(request.getParameter("page").equals("contactus")){
@@ -12,6 +13,8 @@ if(request.getParameter("page").equals("contactus")){
     String query="insert into enquiry(name,gender,address,contactno,emailaddress,enquirytext,enquirydate) values('"+name+"','"+gender+"','"+address+"','"+contactno+"','"+emailaddress+"','"+enquirytext+"',curdate())";
     boolean res=dm.insertUpdateDelete(query);
     if(res==true){
+    SmsSender ss=new SmsSender();
+    ss.sendSms(contactno);
     out.print("<script>alert('Enquiry is submitted');window.location.href='contactus.jsp';</script>");
     }
     else
