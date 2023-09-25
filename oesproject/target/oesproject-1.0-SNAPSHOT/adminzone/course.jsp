@@ -29,7 +29,7 @@
                 <div class="col-sm-12" style="min-height: 600px;background-color: aliceblue">
                     <h2 style="color: blue; text-align: center">Course Management</h2>
                     <form class="form-group" method="post" action="admincontroller.jsp">
-                        <input type="hidden" name="page" value="course"/>
+                        <input type="hidden" name="page" value="courses"/>
                         <table class="table table-bordered" style="width: 50%;margin:auto;">
                             <tr>
                                 <td>
