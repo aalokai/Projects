@@ -17,6 +17,7 @@ Line heights-
 Default: 1
 Small: 1.05
 Medium: 1.2
+Large; 1.8
 Paragraph default: 1.6
 
 Letter Spacing
@@ -41,6 +42,7 @@ Shades:
 Accents:
 
 Greys:
+#888
 #6f6f6f
 #555
 #333
@@ -81,6 +83,7 @@ Medium: 11px
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body{
@@ -88,42 +91,11 @@ body{
     font-weight: 400;
     line-height: 1;
     color: #555;
-}
-
-
-/* *************************** */
-/* Hero Section */
-/* *************************** */
-
-
-
-
-.section-hero{
-    background-color: #fdf2e9;
-    padding: 4.8rem 0 9.6rem 0;
-}
-
-.hero{
-    max-width: 130rem;
-    margin: 0 auto;
-    padding:0 3.2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-    align-items: center;
-}
-
-.hero-description{
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 4.8rem;
+    overflow-x: hidden;
 }
 
 
 
-.hero-img{
-    width: 100%;
-}
 
 
 
@@ -297,6 +269,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
 }
 
 .list-icon{
