@@ -172,7 +172,7 @@ Instead, 1rem=1em=16px */
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .diats {
+    .diets {
         grid-column: 1/-1;
         justify-self: center;
     }
