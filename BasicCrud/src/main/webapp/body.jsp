@@ -1,0 +1,384 @@
+
+    <main>
+        <section class="section-hero" id="hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">Hi!</h1>
+                    <p class="hero-description">
+                        I am <span>Aalok Tiwari</span>
+                    </p>
+                    <p class="work-text">
+                        I craft websites, intelligent solutions and applications.
+                    </p>
+                </div>
+
+                <div class="hero-img-box">
+                    <picture>
+                        <img src="img/aaloktiwari.png" class="hero-img" alt="Aalok Tiwari image" />
+                    </picture>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section-aboutme" id="aboutme">
+            <div class="aboutme-container">
+                <h2 class="heading-secondary"><i class="fa-solid fa-hat-cowboy-side"></i> About me</h2>
+                <div class="aboutme">
+                    <p class="aboutme-description">I love working with <span>AI and building websites</span>. I enjoy
+                        creating smart solutions to tricky problems. I'm good at using <span>AI, machine learning, and
+                            deep learning</span> to make models that can handle different situations. I've been coding
+                        in <span>Java</span> for a long time, so I use its principles to make strong and flexible
+                        <span>web apps</span>. I'm always trying out new ideas and pushing the limits of what technology
+                        can do to make cool experiences.
+                        <br /><br />
+
+                        Outside of work, I like to relax and have fun. I lift <span>weights, play cricket, table tennis,
+                            volleyball, and video games</span> with friends to stay active and healthy. I also enjoy
+                        <span>drawing and painting</span> to express myself and explore new ideas. Doing all these
+                        things helps me stay balanced and grow as a person, even with the busy world of technology and
+                        innovation.
+                    </p>
+                </div>
+            </div>
+            <div class="gallery">
+                <figure class="gallery-item">
+                    <img src="img/g1.webp" alt="Photo of conference presentation" />
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/g2.webp" alt="Photo of Award Distribution" />
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/g3.webp" alt="Photo SIC" />
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/g4.webp" alt="Photo of weight lifting" />
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/g5.webp" alt="Photo of weight lifting" />
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/g6.webp" alt="Photo of weight lifting" />
+                </figure>
+
+            </div>
+        </section>
+
+        <section class="section-resume" id="resume">
+            <div class="resume">
+                <div class="education">
+                    <h3 class="heading-tertiary"><i class="fa-solid fa-school"></i> Education</h3>
+                    <hr class="edu-hr" />
+                    <div class="edu-institute">
+                        <p class="edu-year"><i class="fa-solid fa-calendar-days"></i> 2020-2024</p>
+                        <p class="edu-course">Bachelor of Technology - Computer Science and Engineering</p>
+                        <p class="edu-uni">Faculty Of Engineering and Technology, University of Lucknow, Lucknow, Uttar
+                            Pradesh</p>
+                        <p class="edu-details">In my B.Tech in Computer Science and Engineering, I specialized in
+                            Artificial Intelligence & Machine Learning, web development, operating systems, data
+                            structures and algorithms, computer networks, software engineering principles, and database
+                            management systems (DBMS). These subjects equipped me with comprehensive knowledge essential
+                            for developing cutting-edge technological solutions.</p>
+                    </div>
+                    <div class="edu-institute">
+                        <p class="edu-year"><i class="fa-solid fa-calendar-days"></i> 2020</p>
+                        <p class="edu-course">Intermediate</p>
+                        <p class="edu-uni">Casterbridge School, Ballia, Uttar Pradesh</p>
+                        <p class="edu-details">Physics, Chemistry, Maths, Computer Science</p>
+                    </div>
+                    <div class="edu-institute">
+                        <p class="edu-year"><i class="fa-solid fa-calendar-days"></i> 2018</p>
+                        <p class="edu-course">Matric</p>
+                        <p class="edu-uni">Casterbridge School, Ballia, Uttar Pradesh</p>
+                        <p class="edu-details">Physics, Chemistry, Biology, Maths, Computer Applications, Social Studies
+                        </p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="heading-tertiary"><i class="fa-solid fa-code"></i> Skills</h3>
+                    <hr class="edu-hr" />
+                    <div class="skills-detail">
+                        <ul>
+                            <li><span class="skill-sec">Languages</span>: Java, Python, JavaScript, HTML, CSS, XML,
+                                MySQL</li>
+                            <li><span class="skill-sec">Frameworks</span>: Spring, Spring Boot, Hibernate, Bootstrap
+                            </li>
+                            <li><span class="skill-sec">Other</span>: Artificial Intelligence, Machine Learning, Deep
+                                Learning, Data Structures and Algorithms, Software Development Methodologies, Software
+                                Development Lifecycle.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center-text resume-btn">
+                <a href="AalokTiwari-Resume.pdf" download class="btn btn--full ">Download Resume</a>
+            </div>
+        </section>
+
+        <section class="section-services" id="services">
+            <div class="container center-text">
+                <p class="services-heading">
+                    <span class="services-heading">I'm Available for Freelancing</span>
+                </p>
+                <h2 class="heading-secondary">Expert solutions tailored to your needs</h2>
+            </div>
+            <div class="container grid grid--4-cols margin-bottom-md">
+                <div class="services">
+                    <img src="img/webd.png" alt="Web Development" class="services-img" />
+                    <div class="services-content">
+                        <p class="services-title">Web Development</p>
+                        <ul class="services-attributes">
+                            <li class="services-attribute">Robust web apps</li>
+                            <li class="services-attribute">Responsive UI</li>
+                            <li class="services-attribute">Efficient backend</li>
+                            <li class="services-attribute">API integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services">
+                    <img src="img/ai.png" alt="AI solutions" class="services-img" />
+                    <div class="services-content">
+                        <p class="services-title">AI Solutions</p>
+                        <ul class="services-attributes">
+                            <li class="services-attribute">Intelligent algorithms</li>
+                            <li class="services-attribute">ML & DL solutions</li>
+                            <li class="services-attribute">Custom AI models</li>
+                            <li class="services-attribute">NLP & analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services">
+                    <img src="img/uiux.png"  alt="UI/UX Design" class="services-img" />
+                    <div class="services-content">
+                        <p class="services-title">UI/UX Design</p>
+                        <ul class="services-attributes">
+                            <li class="services-attribute">Visual UI</li>
+                            <li class="services-attribute">Enhanced UX</li>
+                            <li class="services-attribute">Wireframing & prototyping</li>
+                            <li class="services-attribute">Usability testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services">
+                    <img src="img/dataanalysis.png" alt="Data Analysis" class="services-img" />
+                    <div class="services-content">
+                        <p class="services-title">Business Solution</p>
+                        <ul class="services-attributes">
+                            <li class="services-attribute">Streamlined workflows</li>
+                            <li class="services-attribute">Data-driven decisions</li>
+                            <li class="services-attribute">BI integration</li>
+                            <li class="services-attribute">Strategic consulting</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container center-text">
+                <a href="#contact" class="btn btn--full margin-right-sm">Get a Quote</a>
+            </div>
+        </section>
+
+        <section class="section-works" id="works">
+            <div class="container center-text">
+                <p class="heading-secondary">
+                    <span class="works-heading"><i class="fa-solid fa-laptop-file"></i> My Works</span>
+                </p>
+            </div>
+            <div class="works">
+                <div class="projects-list">
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/arod.webp" alt="Aerial Rescue Object Detection">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/arod"
+                                    target="_blank"><span>Aerial Rescue Object Detection</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/oes.webp" alt="Online Examination System">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/Projects/tree/main/oesproject"
+                                    target="_blank">
+                                    <span>Online Examination System</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/omnifood.webp" alt="Omnifood">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/Omnifood" target="_blank">
+                                    <span>Omnifood</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/sentimentanalysis.webp" alt="Sentiment Analysis on drug Reviews">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/SentimentAnalysis"
+                                    target="_blank">
+                                    <span>Sentiment Analysis on Drug reviews</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/portfolio.webp" alt="Portfolio Website">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/portfolio" target="_blank">
+                                    <span>Portfolio Website</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="img/bulkcertificate.webp" alt="Bulk Certificate Generator">
+                        </div>
+                        <div class="hover-items">
+                            <div class="project-name">
+                                <a class="project-link" href="https://github.com/aalokai/bulk-certificate"
+                                    target="_blank">
+                                    <span>Bulk Certificate Generator</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-blogs" id="blogs">
+            <div class="blogs">
+                <h3 class="heading-secondary"><i class="fa-brands fa-linkedin"></i> Blogs</h3>
+                <hr class="blog-hr" />
+                <div class="blog-list">
+                    <div class="blog-item">
+                        <p class="blog-heading">Mixtral 8x7B: a Large Language Model</p>
+                        <p class="blog-date"><i class="fa-solid fa-calendar-days"></i> 23/12/2023</p>
+                        <p class="blog-detail">Mixtral 8x7B is a large language model (uncensored) developed by Mistral
+                            AI, making headlines for its open-source nature and impressive performance. Here's
+                            everything you need to know:
+                            <br />
+                            What is it?
+
+                            -> A "Sparse Mixture of Experts" (SMoE) LLM with 8 expert sub-networks.
+                            -> Open-source and licensed under Apache 2.0, allowing anyone to use and modify it.
+                            -> Boasts 46.7 billion parameters, though the "8x7B" name might suggest 56 billion.
+                        </p>
+                        <p class="blog-readmore"><a class="blog-link"
+                                href="https://www.linkedin.com/posts/aaloktiwari_mixtral-llms-gpt-activity-7144356365937819648-MB5l?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">Read More...</a></p>
+                    </div>
+                    <div class="blog-item">
+                        <p class="blog-heading">AI in modern warfare</p>
+                        <p class="blog-date"><i class="fa-solid fa-calendar-days"></i> 11/07/2023</p>
+                        <p class="blog-detail">Artificial intelligence (AI) is rapidly transforming the landscape of
+                            modern warfare. From cyber warfare to data analysis and the development of autonomous
+                            systems, AI is being used to improve the accuracy, precision, and efficiency of military
+                            operations.
+
+                            ð» In cyber warfare, AI is being used to develop more sophisticated cyber weapons and to</p>
+                        <p class="blog-readmore"><a class="blog-link"
+                                href="https://www.linkedin.com/posts/aaloktiwari_ai-technology-data-activity-7084554327763111937-OUvF?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">Read More...</a></p>
+                    </div>
+
+                    <div class="blog-item">
+                        <p class="blog-heading">AI and Logistics</p>
+                        <p class="blog-date"><i class="fa-solid fa-calendar-days"></i> 26/06/23</p>
+                        <p class="blog-detail">Artificial intelligence and drones are revolutionizing the logistics
+                            industry, bringing efficiency, speed, and innovation to the forefront. Here are a few ways
+                            AI and drone logistics are transforming the landscape:
+
+                            ð Enhanced Delivery Efficiency: AI algorithms empower drones to optimize delivery routes,
+                            taking into account factors like traffic, weather conditions, and package weight. This
+                            enables faster, </p>
+                        <p class="blog-readmore"><a class="blog-link"
+                                href="https://www.linkedin.com/posts/aaloktiwari_ai-innovation-technology-activity-7079118719343292417-oBYw?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">Read More...</a></p>
+                    </div>
+
+                </div>
+                <p class="more-blogs"><a href="https://www.linkedin.com/in/aaloktiwari/" target="_blank">More Blogs on
+                        <i class="fa-solid fa-arrow-right"></i></a></p>
+            </div>
+        </section>
+
+        <section class="section-contact" id="contact">
+            <div class="contact">
+                <div class="contact-box">
+                    <div class="contact-address">
+                        <p class="heading-tertiary">Contact me</p>
+                        <p class="contact-location"><i class="fa-solid fa-location-dot"></i> Kautilya Hall, Second
+                            Campus, University of Lucknow, Jankipuram Ext., Lucknow - 226021, Uttar Pradesh, India.</p>
+                        <p class="contact-email"><i class="fa-solid fa-envelope"></i> <a
+                                href="mailto:tiwari.aalok24@gmail.com">tiwari.aalok24@gmail.com</a></p>
+                        <p class="contact-phone"><i class="fa-solid fa-phone"></i> <a href="tel:+919628234079">+91
+                                9628234079</a></p>
+                        <p class="contact-language"><i class="fa-solid fa-language"></i> Hindi, English</p>
+
+                        <p class="contact-social">Follow me on:</p>
+                        <p class="contact-social-icons">
+                            <a href="https://www.linkedin.com/in/aaloktiwari/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>&nbsp;
+                            <a href="https://github.com/aalokai" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>&nbsp;
+                            <a href="https://twitter.com/aalokai" target="_blank"><i
+                                    class="fa-brands fa-x-twitter"></i></a>&nbsp;
+                            <a href="https://www.instagram.com/aalokai/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>&nbsp;
+                            <a href="https://www.facebook.com/aalokai" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </p>
+                    </div>
+                    <div class="contact-message">
+                        <p class="heading-tertiary">Send me a message</p>
+                        <form class="message-form" action="https://formspree.io/f/mdoqdkll" method="POST">
+                            <div>
+                                <label for="full-name">Full Name
+                                </label><input id="full-name" type="text" name="Name" placeholder="Amit Kumar"
+                                    required />
+                            </div>
+                            <div>
+                                <label for="mail">Email Address</label>
+                                <input class="email" type="email" name="Email" placeholder="me@example.com" required />
+                            </div>
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input class="phone" type="tel" name="Phone" placeholder="9876543210" required />
+                            </div>
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input class="subject" type="text" name="Subject"
+                                    placeholder="Project Proposal: Redesigning Company Website" required />
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="Message" class="message"
+                                    placeholder="I hope this message finds you well. I am reaching out to discuss a ..."></textarea>
+                            </div>
+                            <button class="msg-btn btn btn--full" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
